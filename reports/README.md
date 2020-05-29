@@ -20,18 +20,19 @@ The primary purpose of our analysis was to estimate the number of individuals co
 
 ![](figures/oy_by_puma.png)
 
-This graph shows the number of Opportunity Youth within each PUMA code of King County. The areas in South King County are highlighted. As you can see from the visualization, the areas designated as South King County have the most Opportunity Youth of any other part of the greater King County.
+This graph shows the number of Opportunity Youth within each PUMA code of King County. The areas in South King County are highlighted. As you can see from the visualization, the areas designated as South King County have more Opportunity Youth than any other part of King County.
 
 # Data
 The dataset provided to us was the ACS 2013-2017 5-Year PUMS file containing a sampling of five percent of the population of Washington. This dataset provided extensive information on the individuals surveyed. For the purposes of our analysis, we only utilized a small portion of this data. 
 
 Using our definition of Opportunity Youth from above, we required information on the individuals’ age, PUMA code, school status, work status, and corresponding weight of that observation in order to get an accurate estimate of total number of Opportunity Youth. We also utilized the column for educational attainment that gave the highest level of schooling the given individual obtained. The names of those columns are as follows:
-Age of individual: ‘agep’
-PUMA (Public Use Microdata Area) Code: ‘puma’
-School status: ‘sch’
-Educational attainment: ‘schl’
-Work status: ‘esr’
-Weight of observation: ‘pwgtp’
+
+- Age of individual: ‘agep’
+- PUMA (Public Use Microdata Area) Code: ‘puma’
+- School status: ‘sch’
+- Educational attainment: ‘schl’
+- Work status: ‘esr’
+- Weight of observation: ‘pwgtp’
 
 # Process
 Utilizing the python programming language along with the pandas library and SQLite we had isolated the columns we wished to use to help identify the opportunity youth of southern king county. This included people between the age of 16 - 24 who are not in any form of schooling and are not in the labor force or are unemployed who reside in the PUMA’s (Public Use Microdata Areas) of 11610 - 11614. Once This group was isolated from the rest of the ACS 2013-2017 dataset the columns were further divided in order to look into specific topics such as the educational attainment or employment statuses of opportunity youths. To find trends in the data the python libraries matplotlib and seaborn were used to make graphical visualizations to help illustrate the data to better understand its trends. 
