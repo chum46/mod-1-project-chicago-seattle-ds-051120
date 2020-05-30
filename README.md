@@ -157,7 +157,7 @@ In order to identify any trends we compared the data to analysis done with 2014 
 
 ![](./reports/figures/oy_by_age.png)
 
-We can see that within the 22-24 age group there was a significant dropoff in the number of degreed Opportunity Youth. This could mean that more grads are being hired into the workforce, or less youth are going into higher education. When you look at the 19-21 age group, you see an increase in the amount of OY that have a HS diploma or GED, and a shrinking population of those with some college credits. We can possible deduce that less Youth are taking the next step in getting higher education but we would need more data to support that. It could be that more youth are finishing degrees and getting hired into the work force. Further investigation can be done to confirm this by seeing if the general population in these regions have seen any changes that support this assumption.
+We can see that within the 22-24 age group there was a significant dropoff in the number of degreed Opportunity Youth. This could mean that more grads are being hired into the workforce, or less youth are going into higher education. When you look at the 19-21 age group, you see an increase in the amount of OY that have a HS diploma or GED, and a shrinking population of those with some college credits. We can possibly deduce that less Youth are taking the next step in getting higher education, but we would need more data to support that theory. It could be that more youth are finishing degrees and getting hired into the work force. Further investigation can be done to confirm this by seeing if the general population in these regions have seen any changes in enrollment or job placement.
 
 
 # Application
