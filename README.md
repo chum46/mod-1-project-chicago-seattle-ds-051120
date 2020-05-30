@@ -1,20 +1,16 @@
 # Table of Contents
 
-[Files and Folders of Note](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#files-and-folders-of-note)
 
-[Context of Project](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#context-of-project)
-
-[Preview of Results](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#preview-of-results)
-
-[Data](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#data)
-
-[Process](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#process)
-
-[Results](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#results)
-
-[Strengths and Limitations](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#strengths-and-limitations)
-
-[Real World Application](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#real-world-application)
+<!--ts-->
+ * [Files and Folders of Note](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#files-and-folders-of-note)
+ * [Context of Project](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#context-of-project)
+ * [Preview of Results](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#preview-of-results)
+ * [Data](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#data)
+ * [Process](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#process)
+ * [Results](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#results)
+ * [Strengths and Limitations](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#strengths-and-limitations)
+ * [Real World Application](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#real-world-application)
+<!--te-->
 
 #### Repo Navigation Links
  - [system requirements](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src/requirements)
@@ -63,11 +59,7 @@ Our project task was to update The Seattle Region Partnership (SRP) on the curre
 For the purposes of our analysis, we defined Opportunity Youth as any individual between the ages of 16 and 24 who is not in school and not in the labor force or unemployed. We also defined King County to be the area with PUMA codes 11601-11616 and South King County to be a subset of that area, with PUMA codes 11610-11614.
 
 
-#### Source 2017 5-year American Community Survey [ACS](https://www.census.gov/programs-surveys/acs/about.html) Public Use Microdata Survey [PUMS](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html).
-
- - Definition of opportunity youth (16-to 24-year-olds not in school and not working)
- - South King County includes pumas 11610 to 11615
- - Throughout the notebook "Opportunity Youth" may be abbreviated as "OY"
+#### Source: 2017 5-year American Community Survey [ACS](https://www.census.gov/programs-surveys/acs/about.html) Public Use Microdata Survey [PUMS](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html).
 
 
 # Preview of Results
