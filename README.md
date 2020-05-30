@@ -1,23 +1,33 @@
 # Table of Contents
 
-[Files and Folders of Note](link)
+[Files and Folders of Note](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#files-and-folders-of-note)
 
-[Context of Project](link)
+[Context of Project](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#context-of-project)
 
-[Preview of Results](link)
+[Preview of Results](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#preview-of-results)
 
-[Data](link)
+[Data](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#data)
 
-[Process](link)
+[Process](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#process)
 
-[Results](link)
+[Results](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#results)
 
-[Strengths and Limitations](link)
+[Strengths and Limitations](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#strengths-and-limitations)
 
-[Real World Application](link)
+[Real World Application](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#real-world-application)
+
+#### Repo Navigation Links
+ - [system requirements](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src/requirements)
+ - [data download](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/exploratory/01_erh_download_and_explore_data.ipynb)
+ - [final summary notebook](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/report/08_all_final_summary.ipynb)
+ - [exploratory notebooks folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/notebooks/exploratory)
+ - [src folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src)
+ - [requirements](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src/requirements)
+ - [references](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/references)
 
 
 # Files and Folders of Note
+```
 ├── README.md
 ├── environment.yml
 ├── notebooks
@@ -44,6 +54,7 @@
 │   └── requirements
 │       └── install.sh
 └── windows.yml
+```
 
 
 # Context of Project
