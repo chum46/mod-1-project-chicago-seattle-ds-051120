@@ -78,7 +78,9 @@ python -m ipykernel install --user --name oy-env --display-name "Python 3 (oy-en
 
 **Catalina Note:** You may need to modify the `prefix` at the very bottom of `environment.yml` if you are on macOS Catalina.  Run `conda env list` in your terminal to determine the appropriate path by looking at the paths of your existing conda environment(s).  Modify `environment.yml` then try running the installation commands listed above again.
 </sup>
+
 On all operating systems, you will know that you have the required software if the following Bash commands do not return error or "not found" messages:
+
 ```bash
 which conda
 conda list geopandas
