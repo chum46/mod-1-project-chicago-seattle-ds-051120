@@ -61,24 +61,18 @@ For Windows and Linux computers, you may need to manually ensure that you have i
 ### `oy-env` conda Environment
 
 This project relies on you using the [`environment.yml`](environment.yml) file to recreate the `oy-env` conda environment. To do so, please run the following commands *in your terminal*:
-
 ```bash
 # create the oy-env conda environment
 conda env create -f environment.yml
-
 # activate the oy-env conda environment
 conda activate oy-env
-
 # if needed, make oy-env available to you as a kernel in jupyter
 python -m ipykernel install --user --name oy-env --display-name "Python 3 (oy-env)"
 ```
-
 Note that this may take 10 or more minutes depending on internet speed.
 
 **Windows Note:** The same versions of these packages are not available for Windows computers, so all Windows users should use the `windows.yml` file instead of `environment.yml` (this file was generated on Windows 10)
-
 **Linux Note:** The same versions of these packages are not available for Linux computers, so all Linux users should use the `linux.yml` file instead of `environment.yml` (this file was generated on Red Hat)
-
 **Catalina Note:** You may need to modify the `prefix` at the very bottom of `environment.yml` if you are on macOS Catalina.  Run `conda env list` in your terminal to determine the appropriate path by looking at the paths of your existing conda environment(s).  Modify `environment.yml` then try running the installation commands listed above again.
 
 On all operating systems, you will know that you have the required software if the following Bash commands do not return error or "not found" messages:
@@ -91,11 +85,9 @@ which psql
 ### Data Download
 
 To download the relevant data, run the following command *in Python*:
-
 ```
 data_collection.download_data_and_load_into_sql()
 ```
-
 Note that this may take 10 or more minutes depending on internet speed.
 
 [Here](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/exploratory/01_erh_download_and_explore_data.ipynb) is an example notebook in the `notebooks/exploratory` directory with this code already added.
