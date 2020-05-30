@@ -1,7 +1,7 @@
 # Table of Contents
 
 <!--ts-->
- * [General Setup Instructions]](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#general-setup-instructions)
+ * [General Setup Instructions](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#general-setup-instructions)
  * [Files and Folders of Note](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#files-and-folders-of-note)
  * [Context of Project](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#context-of-project)
  * [Preview of Results](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#preview-of-results)
