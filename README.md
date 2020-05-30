@@ -63,7 +63,7 @@ Our project task was to update The Seattle Region Partnership (SRP) on the curre
 For the purposes of our analysis, we defined Opportunity Youth as any individual between the ages of 16 and 24 who is not in school and not in the labor force or unemployed. We also defined King County to be the area with PUMA codes 11601-11616 and South King County to be a subset of that area, with PUMA codes 11610-11614.
 
 
-#### Source 2017 5-year American Community Survey (ACS) Public Use Microdata Survey (PUMS).
+#### Source 2017 5-year American Community Survey [ACS](https://www.census.gov/programs-surveys/acs/about.html) Public Use Microdata Survey [PUMS](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html).
 
  - Definition of opportunity youth (16-to 24-year-olds not in school and not working)
  - South King County includes pumas 11610 to 11615
@@ -74,15 +74,16 @@ For the purposes of our analysis, we defined Opportunity Youth as any individual
 
 The primary purpose of our analysis was to estimate the number of individuals considered to be Opportunity Youth within South King County, which we found to be 9,404. Furthermore, we were to provide a breakdown of the number of Opportunity Youth within each PUMA code of South King County.
 
-![](figures/oy_by_puma.png)
+![](./reports/figures/oy_by_puma.png)
 
 This graph shows the number of Opportunity Youth within each PUMA code of King County. The areas in South King County are highlighted. As you can see from the visualization, the areas designated as South King County have more Opportunity Youth than any other part of King County.
 
 Looking at the segmented age groups within the opportunity youth population, we can see some trends over time in the education level. 
 
-![](figures/oy_by_age.png)
+![](./reports/figures/oy_by_age.png)
 
-We can see that within the 22-24 age group there was a significant dropoff in the number of degreed Opportunity Youth. This could mean that more grads are being hired into the workforce, or less youth are going into higher education. When you look at the 19-21 age group, you see an increase in the amount of OY that have a HS diploma or GED, and a shrinking population of those with some college credits. We can possible deduce that less Youth are taking the next step in getting higher education but we would need more data to support that. It could be that more youth are finishing degrees and getting hired into the work force. Further investigation can be done to confirm this by seeing if the general population in these regions have seen any changes that support this assumption.
+We can see that within the 22-24 age group there was a significant dropoff in the number of degreed Opportunity Youth. When you look at the 19-21 age group, you see an increase in the amount of OY that have a HS diploma or GED, and a shrinking population of those with some college credits. 
+
 
 # Data
 The dataset provided to us was the ACS 2013-2017 5-Year PUMS file containing a sampling of five percent of the population of Washington. This dataset provided extensive information on the individuals surveyed. For the purposes of our analysis, we only utilized a small portion of this data. 
@@ -112,6 +113,16 @@ As you can see from the plot above, the PUMA codes in South King County have a h
 ![](./reports/figures/percent_oy_by_puma.png)
 
 This representation breeds the same result. The PUMA codes in South King County have the highest percentage of Opportunity Youth among the 16-24 year old population.
+
+Next, we look at the breakdown of the education lever of Opportunity Youth in segmented age groups. Below you'll see a table of the results. 
+
+![](./reports/figures/2017OY_Age.png)
+
+In order to identify any trends we compared the data to analysis done with 2014 results: 
+
+![](./reports/figures/oy_by_age.png)
+
+We can see that within the 22-24 age group there was a significant dropoff in the number of degreed Opportunity Youth. This could mean that more grads are being hired into the workforce, or less youth are going into higher education. When you look at the 19-21 age group, you see an increase in the amount of OY that have a HS diploma or GED, and a shrinking population of those with some college credits. We can possible deduce that less Youth are taking the next step in getting higher education but we would need more data to support that. It could be that more youth are finishing degrees and getting hired into the work force. Further investigation can be done to confirm this by seeing if the general population in these regions have seen any changes that support this assumption.
 
 
 
