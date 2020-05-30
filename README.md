@@ -12,15 +12,6 @@
  * [Real World Application](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120#real-world-application)
 <!--te-->
 
-#### Repo Navigation Links
- - [system requirements](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src/requirements)
- - [data download](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/exploratory/01_erh_download_and_explore_data.ipynb)
- - [final summary notebook](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/report/08_all_final_summary.ipynb)
- - [exploratory notebooks folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/notebooks/exploratory)
- - [src folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src)
- - [references](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/references)
-
-
 # Files and Folders of Note
 ```
 ├── README.md
@@ -50,6 +41,14 @@
 │       └── install.sh
 └── windows.yml
 ```
+#### Repo Navigation Links
+ - [system requirements](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src/requirements)
+ - [data download](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/exploratory/01_erh_download_and_explore_data.ipynb)
+ - [final summary notebook](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/report/08_all_final_summary.ipynb)
+ - [exploratory notebooks folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/notebooks/exploratory)
+ - [src folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src)
+ - [references](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/references)
+ 
 # General Setup Instructions 
 If you are missing required software (e.g. Anaconda, PostgreSQL), please run the following command in Bash (designed for Mac computers):
 ```bash
@@ -99,9 +98,7 @@ data_collection.download_data_and_load_into_sql()
 
 Note that this may take 10 or more minutes depending on internet speed.
 
-There is an example notebook in the `notebooks/exploratory` directory with this code already added.
-
-
+[Here](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/exploratory/01_erh_download_and_explore_data.ipynb) is an example notebook in the `notebooks/exploratory` directory with this code already added.
 
 
 # Context of Project
@@ -122,7 +119,7 @@ The primary purpose of our analysis was to estimate the number of individuals co
 
 This graph shows the number of Opportunity Youth within each PUMA code of King County. The areas in South King County are highlighted. As you can see from the visualization, the areas designated as South King County have more Opportunity Youth than any other part of King County.
 
-Looking at the segmented age groups within the opportunity youth population, we can see some trends over time in the education level. 
+Looking at the segmented age groups within the opportunity youth population, we can see some trends over time in the education level (Note: the matplotlib savefig method cuts off the legend, from top to bottom it should read - Degree, Associate or higher; Some college, no degree; HS diploma or GED; No diploma). 
 
 ![](./reports/figures/oy_by_age.png)
 
@@ -162,12 +159,11 @@ Next, we look at the breakdown of the education lever of Opportunity Youth in se
 
 ![](./reports/figures/2017OY_Age.png)
 
-In order to identify any trends we compared the data to analysis done with 2014 results: 
+In order to identify any trends we compared the data to analysis done with 2014 results (Note: the matplotlib savefig method cuts off the legend, from top to bottom it should read - Degree, Associate or higher; Some college, no degree; HS diploma or GED; No diploma): 
 
 ![](./reports/figures/oy_by_age.png)
 
 We can see that within the 22-24 age group there was a significant dropoff in the number of degreed Opportunity Youth. This could mean that more grads are being hired into the workforce, or less youth are going into higher education. When you look at the 19-21 age group, you see an increase in the amount of OY that have a HS diploma or GED, and a shrinking population of those with some college credits. We can possible deduce that less Youth are taking the next step in getting higher education but we would need more data to support that. It could be that more youth are finishing degrees and getting hired into the work force. Further investigation can be done to confirm this by seeing if the general population in these regions have seen any changes that support this assumption.
-
 
 
 # Application
