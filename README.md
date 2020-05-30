@@ -149,7 +149,7 @@ As you can see from the plot above, the PUMA codes in South King County have a h
 
 This representation breeds the same result. The PUMA codes in South King County have the highest percentage of Opportunity Youth among the 16-24 year old population.
 
-Next, we look at the breakdown of the education lever of Opportunity Youth in segmented age groups. Below you'll see a table of the results. 
+Next, we look at the breakdown of the education level of Opportunity Youth in segmented age groups. Below you'll see a table of the results. 
 
 ![](./reports/figures/2017OY_Age.png)
 
