@@ -51,6 +51,7 @@
  
 # General Setup Instructions 
 <sup>note: each command may take anywhere from 10-20 minutes depending on internet speed</sup>
+
 If you are missing required software (e.g. Anaconda, PostgreSQL), please run the following command in Bash (designed for Mac computers):
 ```bash
 # installs necessary requirements
