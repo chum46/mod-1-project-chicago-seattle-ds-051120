@@ -71,13 +71,11 @@ conda activate oy-env
 python -m ipykernel install --user --name oy-env --display-name "Python 3 (oy-env)"
 ```
 
-<sup>
 **Windows Note:** The same versions of these packages are not available for Windows computers, so all Windows users should use the `windows.yml` file instead of `environment.yml` (this file was generated on Windows 10)
 
 **Linux Note:** The same versions of these packages are not available for Linux computers, so all Linux users should use the `linux.yml` file instead of `environment.yml` (this file was generated on Red Hat)
 
 **Catalina Note:** You may need to modify the `prefix` at the very bottom of `environment.yml` if you are on macOS Catalina.  Run `conda env list` in your terminal to determine the appropriate path by looking at the paths of your existing conda environment(s).  Modify `environment.yml` then try running the installation commands listed above again.
-</sup>
 
 On all operating systems, you will know that you have the required software if the following Bash commands do not return error or "not found" messages:
 
