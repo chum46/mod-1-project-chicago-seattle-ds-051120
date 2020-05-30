@@ -22,7 +22,6 @@
  - [final summary notebook](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/blob/master/notebooks/report/08_all_final_summary.ipynb)
  - [exploratory notebooks folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/notebooks/exploratory)
  - [src folder](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src)
- - [requirements](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/src/requirements)
  - [references](https://github.com/chum46/mod-1-project-chicago-seattle-ds-051120/tree/master/references)
 
 
@@ -106,13 +105,15 @@ The first step of our analysis was to provide an estimate of the number of Oppor
 
 By utilizing the columns listed above, we estimate that there are a total of 9,404 Opportunity Youth within South King County.
 
-![](figures/oy_by_puma.png)
+![](./reports/figures/oy_by_puma.png)
 
 As you can see from the plot above, the PUMA codes in South King County have a higher number of Opportunity Youth than any other area in King County. Our first thought was that the population of those ages 16-24 may be higher in these areas. Since the population was not consistent across PUMA codes, we decided to plot a relative measurement instead, the percentage of the population ages 16-24 who are considered Opportunity Youth.
 
-![](figures/percent_oy_by_puma.png)
+![](./reports/figures/percent_oy_by_puma.png)
 
 This representation breeds the same result. The PUMA codes in South King County have the highest percentage of Opportunity Youth among the 16-24 year old population.
+
+
 
 # Application
 
